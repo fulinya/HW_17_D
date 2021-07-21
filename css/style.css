@@ -47,7 +47,7 @@
     color:black;
     font-size: 16px;
     padding: 15px;
-    width: 50%;
+    width: 100%;
   }
   
 
@@ -79,7 +79,7 @@
     background-position: center;
   }
   .project3 {
-    background-image: url("../images/royal.png");
+    background-image: url("../images/kinfolk.png");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -97,7 +97,175 @@
   .text h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
+  .firstname {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+  }
+
   
+  .row {
+    display: flex;
+    border: 1px solid white;
+    justify-content: stretch;
+
+  }
+
+  .aboutme {
+    padding: 2rem;
+    border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+
+  .aboutme h1 {
+    font-size: 2rem;
+
+  }
+
+  .aboutme p {
+max-width: 600px;
+  }
+
+  .aboutme .img {
+    width: 200px;
+    height: 100px;
+    background: blue;
+    background-image: url(/images/fulya.jpg)
+  
+  }
+
+  .contact {
+    padding: 2rem;
+    border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+
+  .contact h1 {
+    font-size: 1.5rem;
+
+  }
+
+
+  .skill {
+    padding: 7rem;
+    border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  }
+
+  .skill .title {
+font-size: 1.6rem;
+
+
+  }
+
+  .skill1 .img {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    background-image: url(/images/research.png)
+
+  }
+
+  .skill2 .img {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    background-image: url(/images/video_editing.png)
+
+  }
+
+  .skill3 .img {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    background-image: url(/images/product-design.png)
+
+  }
+
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+
+  .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 45px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* Set a style for the behance button */
+  .bhn {
+    background-color: rgb(250, 149, 149);
+    padding: 15px 20px;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-bottom: 85px;
+    border-radius: 10px;
+
+  }
+  
+  .bhn:hover {
+    opacity: 1;
+  }
+
   /* Footer Styles */
   .footer {
     display: flex;
